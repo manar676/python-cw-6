@@ -17,6 +17,7 @@ print(f"my name is{person['name']},I am from{person['country']}and I am {person[
 print(f"{person}")
  
 person.get("bowling")
+
 def check_hobbies(person):
     if person["hobbies"]>=3:
         print("WOW YOU ARE AMAZING")
